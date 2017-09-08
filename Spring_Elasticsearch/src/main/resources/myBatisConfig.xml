@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+  PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-config.dtd">
+  
+  <!-- 类似Hibernate配置文件： hibernate.cfg.xml -->
+<configuration>
+
+<!-- 设置别名 -->
+  <typeAliases>
+  	<!-- 批量,默认别名为：类名Person或者person-->
+  	<package name="com.fendo.entity"/>
+  </typeAliases> 
+  
+ 
+</configuration>
